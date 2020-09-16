@@ -38,7 +38,6 @@
 :root {
     --color-balck: #071629;
     --color-primary:#C271FF;
-    --color-secondary: #071629;
     --color-white: #FFF;
 
     --text-color-black: var(--color-balck);
@@ -54,18 +53,12 @@
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
-    --font-size-x-large: 2.3rem;
     --font-size-xx-large: 12rem;
 
-    --line-height-small: 1.2;
     --line-height-base: 1.5;
-    --line-height-big: 1.8;
 
     --links-hover-active-color: #AD47FB;
     --button-hove-active-opacity: 0.9;
-
-    --max-width-content: 1000px;
-    --box-shadow: 3px 3px 31px 5px rgba(0,0,0,0.35);
 
     /* HEADER */
      --header-padding: 3rem 0 0;
@@ -74,8 +67,6 @@
     --nav-item-margin: 0 0 0 5.2rem;
     --nav-item-diaplay: inline-block;
     --nav-item-font: var(--font-family-bold);
-    --nav-item-font-size: var(--font-size-medium);
-    --nav-item-color: var(--color-white);
     --nav-item-hover-color: var(--color-primary);
 
     /* MOTION */

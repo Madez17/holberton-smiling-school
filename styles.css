@@ -470,6 +470,13 @@
         background-color:var(--color-white);
     }
 
+    .popular .carousel-control-prev {
+        left: -5%;
+    }
+    .popular .carousel-control-next {
+        right: -5%;
+    }
+
     .popular-title {
         color: var(--color-balck);
         font-family: var(--font-family-bold);
@@ -491,8 +498,10 @@
         font-size: 1.4rem;
     }
 
-    .card-video {
-        width: 255px;
+    .carousel-p {
+        margin: 0 auto;
+        max-width: 1228px;
+        width: 90%;
     }
 
     .image-inf {
@@ -532,4 +541,35 @@
     .hour {
         font-family: var(--font-family-title);
         font-style: normal;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .carousel-p {
+            width: 75%;
+        }
+
+        .popular .carousel-control-prev {
+            left: -12%;
+        }
+        .popular .carousel-control-next {
+            right: -12%;
+        }
+
+        .popular .carousel-control-next,
+        .popular .carousel-control-prev {
+            bottom: 6%;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        .carousel-p {
+            width: 60%;
+        }
+
+        .popular .carousel-control-prev {
+            left: -21%;
+        }
+        .popular .carousel-control-next {
+            right: -21%;
+        }
     }

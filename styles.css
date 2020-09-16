@@ -363,13 +363,15 @@
         font-style: italic;
     }
 
+    @media only screen and (max-width: 991px) {
+        .col-m {
+            margin-bottom: 30px;
+        }
+    }
+
     @media only screen and (max-width: 768px) {
         .caption-hero-piece .caption-title {
             font-size: 9rem;
-        }
-        
-        .col-m {
-            margin-bottom: 30px;
         }
     }
 
@@ -573,3 +575,109 @@
             right: -21%;
         }
     }
+
+    /* Section membership
+      ============================= */
+          
+    .free-membership {
+        background-color: var(--color-balck);
+        padding: 70px 0 58px 0;
+    }
+
+    .content-membership {
+        max-width: 1111px;
+        margin: 0 auto;
+        /* width: 100%; */
+    }
+
+    .item {
+        margin-bottom: 85px;
+    }
+
+    .free-membership .btn-primary {
+        margin-bottom: 0;
+    }
+
+    .smile {
+        margin-bottom: 2.6rem;
+    }
+
+    .text-title-item {
+        margin-top: 1.3rem;
+        font-family: var(--font-family-base);
+    }
+
+    .item-font-title {
+        font-family: var(--font-family-title);
+    }
+
+    @media only screen and (max-width: 576px) {
+        .content-membership {
+            width: 90%;
+        }
+    }
+
+    /** Footer
+      ============================= */
+
+    .footer {
+        background-color: var(--color-balck);
+    }
+
+    .footer-item {
+        align-items: center;
+        color: var(--color-white);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section-body {
+        padding: 9.5rem 0 3.9rem 0;
+    }
+
+    .last-footer span {
+        font-family: var(--font-family-base);
+        opacity: .5;
+    }
+
+    .last-footer {
+        display: block;
+        margin-top: 4.5rem;
+        text-align: center;
+    }
+
+    .social-net a {
+        text-decoration: none;
+    }
+
+    .social-net .icon {
+        color: var(--color-white);
+        font-size: 30px;
+        padding-left: 20px;
+        transition: var(--transition-duration);
+    }
+
+    .social-net .icon:hover {
+        color: var(--color-primary);
+    }
+
+    @media only screen and (max-width: 480px) {
+        .footer-item {
+            flex-direction: column;
+        }
+
+        .logo-footer {
+            margin-bottom: 8rem;
+        }
+
+        .social-net .icon {
+            padding: 0 9px;
+        }
+
+        .header-logo {
+            padding: 0;
+            margin-bottom: 4.5rem;
+        }
+    }
+
+   

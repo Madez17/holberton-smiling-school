@@ -463,27 +463,27 @@
         }
     }
 
-    /* Popular
+    /* section-card
       ============================= */
-    .popular {
+    .section-card {
         padding: 87px 0;
         background-color:var(--color-white);
     }
 
-    .popular .carousel-control-prev {
+    .section-card .carousel-control-prev {
         left: -5%;
     }
-    .popular .carousel-control-next {
+    .section-card .carousel-control-next {
         right: -5%;
     }
 
-    .popular-title {
+    .section-card-title {
         color: var(--color-balck);
         font-family: var(--font-family-bold);
         font-size: var(--font-size-medium);
     }
 
-    .popular-text {
+    .section-card-text {
         color: #a6a6a6;
     }
     
@@ -493,7 +493,7 @@
         margin-top: 15px;
     }
     
-    .popular-text,
+    .section-card-text,
     .recomendations > .pros-title {
         font-size: 1.4rem;
     }
@@ -530,11 +530,11 @@
         margin-top: 1.5rem;
     }
 
-    .popular .carousel-control-prev-icon {
+    .section-card .carousel-control-prev-icon {
         background-image: url('images/arrow_black_left.png');
     }
 
-    .popular .carousel-control-next-icon {
+    .section-card .carousel-control-next-icon {
         background-image: url('images/arrow_black_right.png');
     }
 
@@ -548,15 +548,15 @@
             width: 75%;
         }
 
-        .popular .carousel-control-prev {
+        .section-card .carousel-control-prev {
             left: -12%;
         }
-        .popular .carousel-control-next {
+        .section-card .carousel-control-next {
             right: -12%;
         }
 
-        .popular .carousel-control-next,
-        .popular .carousel-control-prev {
+        .section-card .carousel-control-next,
+        .section-card .carousel-control-prev {
             bottom: 6%;
         }
     }
@@ -566,10 +566,10 @@
             width: 60%;
         }
 
-        .popular .carousel-control-prev {
+        .section-card .carousel-control-prev {
             left: -21%;
         }
-        .popular .carousel-control-next {
+        .section-card .carousel-control-next {
             right: -21%;
         }
     }

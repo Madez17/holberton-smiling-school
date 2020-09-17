@@ -39,6 +39,8 @@
     --color-balck: #071629;
     --color-primary:#C271FF;
     --color-white: #FFF;
+    --color-check: #82D24F;
+    --color-text-light: #a6a6a6;
 
     --text-color-black: var(--color-balck);
     --text-color-white: var(--color-white);
@@ -214,6 +216,13 @@
         top: -.7rem;
     }
 
+    @media only screen and (max-width: 576px) {
+        .header-logo {
+            padding: 0;
+            margin-bottom: 0;
+        }
+    }
+
     @media only screen and (max-width: 480px) {
         :root {
             margin: 0;
@@ -228,7 +237,7 @@
             position: relative;
         }
 
-        .header-logo {
+        .header .header-logo {
             padding-top: 8px;
         }
 
@@ -440,6 +449,10 @@
             bottom: 60%;
             width: 15%;
         }
+
+        .content-tes {
+            width: 90%;
+        }
     }
 
     @media only screen and (max-width: 576px) {
@@ -477,7 +490,7 @@
     }
 
     .section-card-text {
-        color: #a6a6a6;
+        color: var(--color-text-light);
     }
     
     .recomendations, 
@@ -671,4 +684,138 @@
         }
     }
 
-   
+     /** Page Pricing
+      ============================= */
+
+    .header-pricing {
+        background-image: url('images/pic_2.jpg');
+    }
+
+    .header-pricing .pricing-list li{
+        text-transform: inherit;
+        font-size: 3.2rem;
+        font-family: var(--font-family-base);
+    }
+
+    .header-pricing .pricing-content .container {
+        margin-top: 21rem;
+    }
+
+    .header-pricing .caption-title {
+        font-family: var(--font-family-bold);
+        font-size: 6rem;
+        margin-bottom: 5.5rem;
+        margin-top: 7.5rem;
+    }
+
+    .signal {
+        display: block;
+    }
+
+    .table-dark {
+        background-color: transparent;
+    }
+    
+    .table-dark td,
+    .table-dark th,
+    .table-dark thead th {
+        border-top: transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+    }
+
+    .header-pricing .btn-primary {
+        margin-bottom: 3.0rem;
+    }
+
+    .lf {
+        text-align: left;
+        font-family: var(--font-family-base);
+    }
+
+    .header-pricing .pr {
+        padding-right: 15rem;
+    }
+
+    .header-pricing a {
+        text-decoration: none;
+    }
+
+    .header-pricing .pr-small {
+        padding-right: 5rem;
+    }
+
+    .header-pricing .pros-title {
+        font-size: 4.4rem;
+        font-family: var(--font-family-bold);
+    }
+
+    .header-pricing .sub-title {
+        font-size: var(--font-size-small);
+        font-family: var(--font-family-base);
+    }
+    .header-pricing .pd {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .header-pricing .icon {
+        font-size: 2.8rem;
+        color: var(--color-check);
+    }
+
+    .header-pricing .section-body {
+        padding: 0 0 3.9rem 0;
+    }
+
+    .header-pricing tbody tr:last-child td,
+    .table-dark thead th {
+        border: none;
+    }
+
+    @media only screen and (max-width: 990px) {
+        .header-pricing .pr {
+            padding-right: 9rem;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        .header-pricing .pr {
+            padding-right: 0;
+        }
+    }
+
+    /** faq
+      ============================= */
+
+    .faq {
+        padding: 7.4rem 0 5.3rem;
+    }
+
+    .faq .text-g {
+        font-size: 6rem;
+    }
+
+    .faq .text-title-item {
+        color: var(--color-text-light);
+        font-size: 1.4rem;
+        padding-bottom: 7.4rem;
+    }
+
+    .faq .pros-title {
+        font-size: var(--font-size-medium);
+        font-family: var(--font-family-bold);
+    }
+
+     .faq .col-m {
+        padding-left: 10%;
+    }
+
+     @media only screen and (max-width: 768px) {
+        .faq .col-m {
+            padding: 0
+        }
+
+        .faq .content-membership {
+            width: 90%;
+        }
+    }

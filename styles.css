@@ -832,6 +832,12 @@
         }
     }
 
+    @media only screen and (max-width: 576px) {
+        .faq .text-title-item {
+            padding-bottom: 0;
+        }
+    }
+
  /** Page courses
       ============================= */
 
@@ -950,6 +956,11 @@
 
     .courses .form-group {
         margin-bottom: 0;
+    }
+
+    .size-content {
+        max-width: 1110px;
+        margin: 0 auto;
     }
 
     @media only screen and (max-width: 1125px) {

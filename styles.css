@@ -879,6 +879,7 @@
         color: var(--color-white);
         padding-left: 5rem;
         font-size: 2rem;
+        border-bottom: 1px solid var(--color-white);
     }
 
     .courses input::placeholder {
@@ -932,6 +933,7 @@
         font-size: 2rem;
         background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
         background-size: 2.5rem;
+        border-bottom: 1px solid var(--color-white);
     }
 
     .courses .custom-select:focus {
@@ -998,4 +1000,29 @@
             top: 37px;
         }
     }
+
+/* Courses */
+
+.courses-videos {
+    padding-top: 3.4rem;
+    padding-bottom: 7.5rem;
+}
+
+.count-courses {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    color: var(--color-text-light);
+}
+
+.courses-videos .container {
+    text-align: left;
+}
+
+.courses-videos .row {
+    padding-top: 3.3rem;
+}
+
+.col-b {
+    padding-bottom: 3.5rem;
+}
     

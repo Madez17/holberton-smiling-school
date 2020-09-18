@@ -1,6 +1,6 @@
 # holberton-smiling-school
 
-![Imgur](https://i.imgur.com/rZqFnbB.png)
+![Imgur](https://i.imgur.com/PTpO8aB.png)
 
 ## Construction Homepage
 

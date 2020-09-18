@@ -7,7 +7,7 @@
 Implementacion Bootstrap 4.
 
 - Creation page design home page, HTML5 - CSS3 - Bootstrap some JavaScript
-![](get-schooled.gif)
+![](home.gif)
 
 
 - Creation page design Courses page, HTML5 - CSS3 - Bootstrap some JavaScript
